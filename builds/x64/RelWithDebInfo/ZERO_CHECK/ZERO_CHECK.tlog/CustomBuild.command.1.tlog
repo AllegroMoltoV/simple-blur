@@ -1,0 +1,10 @@
+^D:\SIMPLE-BLUR\BUILDS\CMAKEFILES\6A6043EFC01715E4D11BA171D24D7D45\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/simple-blur -BD:/simple-blur/builds --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/simple-blur/builds/simple-blur.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

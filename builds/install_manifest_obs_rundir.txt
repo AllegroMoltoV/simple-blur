@@ -1,0 +1,3 @@
+D:/simple-blur/builds/rundir/RelWithDebInfo/obs-plugins/64bit/simple-blur.dll
+D:/simple-blur/builds/rundir/RelWithDebInfo/obs-plugins/64bit/simple-blur.pdb
+D:/simple-blur/builds/rundir/RelWithDebInfo/data/obs-plugins/simple-blur/data/locale/en-US.ini

@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/simple-blur/CMakeLists.txt
+  plugin-main.c
+D:\simple-blur\src\plugin-main.c(35,40): error C2220: 次の警告はエラーとして処理されます
+D:\simple-blur\src\plugin-main.c(35,40): warning C4100: 'unused': 引数は関数の本体部で 1 度も参照されません。
+D:\simple-blur\src\plugin-main.c(40,69): warning C4100: 'source': 引数は関数の本体部で 1 度も参照されません。
+D:\simple-blur\src\plugin-main.c(74,25): warning C4115: 'texture': 関数の仮引数リストで構造体、共用体、列挙型の定義に使われました。
+D:\simple-blur\src\plugin-main.c(83,10): warning C4133: '関数': 'texture *' と 'gs_texture_t *' の間で型に互換性がありません。
+D:\simple-blur\src\plugin-main.c(84,17): warning C4133: '関数': 'gs_effect_t *' と 'gs_texture_t *' の間で型に互換性がありません。
+D:\simple-blur\src\plugin-main.c(84,34): warning C4047: '関数': 間接参照のレベルが 'uint32_t' と 'texture *' で異なっています。
+D:\simple-blur\src\plugin-main.c(84,28): warning C4024: 'gs_draw_sprite': の型が 3 の仮引数および実引数と異なります。
+D:\simple-blur\src\plugin-main.c(84,38): warning C4047: '関数': 間接参照のレベルが 'uint32_t' と 'const vec2 *' で異なっています。
+D:\simple-blur\src\plugin-main.c(84,36): warning C4024: 'gs_draw_sprite': の型が 4 の仮引数および実引数と異なります。
+D:\simple-blur\src\plugin-main.c(84,40): warning C4020: 'gs_draw_sprite': 実引数が多すぎます。
+D:\simple-blur\src\plugin-main.c(93,48): warning C4100: 'unused': 引数は関数の本体部で 1 度も参照されません。
+D:\simple-blur\src\plugin-main.c(103,25): warning C4113: 'void (__cdecl *)(void *,gs_effect_t *,texture *,texture *,const vec2 *,const vec4 *)' はパラメーター リストが 'void (__cdecl *)(void *,gs_effect_t *)' と異なります。
